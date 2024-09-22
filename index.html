@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
     <title>RJ Studios Official Website</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
@@ -24,36 +26,50 @@
         </div>
         <div class="center-section">
             <div id="about" class="content active">
-                <h1>About section</h1>
+                <h1>About</h1>
                 <p>RJ Studios is an indie studio, currently making cool programs. <br>
                 RJ Studios stands for Really Janky Studios, and as the name suggests, we are a bit Janky... <br>
-                RJ Studios is consisted of <a href="">Andrecon</a>, CGCristi and Arond</p>
-<p>Also check out: <a href="https://cgcristi.xyz" style="color: #E8AA42; text-decoration: underline;" target="_blank">cgcristi.xyz</a></p>
+                RJ Studios is consisted of <a href="https://www.instagram.com/andrecon.des/">Andrecon</a>, <a href="https://cgcristi.xyz">CGCristi</a> and <a href="https://www.youtube.com/@a.arond_official">Arond</a></p>
             </div>
             <div id="socials" class="content">
-                <h1>Socials</h1>
-                <p>Modrinth: <a href="https://modrinth.com/user/ItzAndrecon" class="button" target="_blank">ItzAndrecon</a></p>
-                <p><i class="fa-brands fa-reddit fa-2xl" style="margin-right: 10px;"></i><a href="https://www.reddit.com/user/Andrecon6G/" class="button" target="_blank">Andrecon6G</a></p>
-                <p><i class="fa-brands fa-x-twitter fa-2xl" style="margin-right: 10px;"></i>: <a href="https://x.com/AndreconDesigns" class="button" target="_blank">AndreconDesigns</a></p>
-                <p><i class="fa-brands fa-github fa-2xl"  style="margin-right: 10px;"></i> <a href="https://github.com/AndrecodeInBrackets" class="button" target="_blank">AndrecodeInBrackets</a></p>
-                <p><i class="fa-brands fa-instagram fa-beat fa-2xl" style="margin-right: 10px;"></i> <a href="https://www.instagram.com/andrecon.des" class="button" target="_blank">@andrecon.des</a> / <a href="https://www.instagram.com/andrecon6g" class="button" target="_blank">@andrecon6g</a></p>
+                <h1>Members' Socials</h1>
+                <span id="purplelink">
+                <p><a href="https://www.instagram.com/andrecon.des/">Andrecon's Instagram</a></p>
+                <p><a href="https://github.com/realcgcristi">CGCristi's Github</a></p>
+                <p><a href="https://www.youtube.com/@a.arond_official">Arond's Youtube</a></p>
+                </span>
+                <br> <hr> <br>
+                <h1>Members' Websites</h1>
+                <span id="greenlink">
+                <p><a href="https://andrecon.cgcristi.xyz">Andrecon's Website</a></p>
+                <p><a href="https://cgcristi.xyz">CGCristi's Website</a></p>
+                <p>Aronds's Website (sorry nothing here, for now)</p>
+                </span>
             </div>
             <div id="contact" class="content">
                 <h1>Contact</h1>
-                <p>Email: <a href="mailto:gamerandrecon@gmail.com" class="button">gamerandrecon@gmail.com</a></p>
-                <p>Designs 	Email: <a href="mailto:andrecon.designs@gmail.com" class="button">andrecon.designs@gmail.com</a></p>
-                <p>Instagram: <a href="https://www.instagram.com/andrecon.des" class="button" target="_blank">@andrecon.des</a> / <a href="https://www.instagram.com/andrecon6g" class="button" target="_blank">@andrecon6g</a></p>
+                <p>This place is a work in progress sorry</p>
+            </div>
+            <div id="projects" class="content">
+                <h1>Projects</h1>
+                <div class="repo-item">
+                    <a href="https://github.com/RJStudios/RJ-Tools-PY">RJ-Tools</a>
+                    <p>A quality-of-life multi-tool</p>
+                </div>
             </div>
         </div>
         <div class="section-links">
             <a href="#" onclick="showContent('about')">
-                <i class="fa fa-info-circle"></i> About me
+                <i class="fa fa-info-circle"></i> About
             </a>
             <a href="#" onclick="showContent('socials')">
-                <i class="fa fa-share-alt"></i> Socials
+                <i class="fa fa-share-alt"></i> Members' Socials
             </a>
             <a href="#" onclick="showContent('contact')">
                 <i class="fa fa-envelope"></i> Contact
+            </a>
+            <a href="#" onclick="showContent('projects')">
+                <i class="fa fa-code"></i> Projects
             </a>
         </div>
     </div>

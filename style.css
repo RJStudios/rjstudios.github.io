@@ -50,23 +50,29 @@ body {
 }
 
 /* yes, if u ask, after i make a website, i always put the NEW css for other things that werent in the 1st ver on the side. idk why */
+
 #about a {
 color: white; 
 }
 
-#about a:hover {
-color: #E8AA42; 
+#greenlink a {
+color: #afd9af;
 }
 
-#socials a,
+#greenlink a:hover,
+#about a:hover {
+color: #8db38d; 
+}
+
+#purplelink a,
 #contact a {
-color: #E8AA42; 
+color: #9075a3; 
 text-decoration: underline; 
 }
 
-#socials a:hover,
+#purplelink a:hover,
 #contact a:hover {
-color: #d6892b;
+color: #695379;
 }
 
 .section-links {
@@ -110,6 +116,13 @@ background-size: cover;
 .rjstudios {
     margin-top: -25px;
 }
+
+.repo-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 10px;
+}
+
 
 /* Poppins Font Weights */
 
