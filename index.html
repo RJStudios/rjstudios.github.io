@@ -3,137 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
-    <title>Andrecon - cgcristi.xyz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>RJ Studios Official Website</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: url('wallpaper.svg') no-repeat center center fixed;
-            background-size: cover;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .container {
-            display: flex;
-            background-color: rgba(0, 0, 0, 0.8);
-            border-radius: 25px;
-            padding: 30px;
-            width: 80%;
-            max-width: 900px;
-            color: white;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
-        }
-
-        .left-section {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-
-        #pfp {
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            margin-bottom: 15px;
-        }
-
-        .center-section {
-            flex: 3;
-            padding: 0 20px;
-        }
-
-        .content {
-            display: none;
-        }
-
-        .content.active {
-            display: block;
-        }
-
-/* yes, if u ask, after i make a website, i always put the NEW css for other things that werent in the 1st ver on the side. idk why */
-#about a {
-    color: white; 
-}
-
-#about a:hover {
-    color: #cccccc; 
-}
-
-#socials a,
-#contact a {
-    color: #E8AA42; 
-    text-decoration: underline; 
-}
-
-#socials a:hover,
-#contact a:hover {
-    color: #d6892b; 
-}
-
-        .section-links {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .section-links a {
-            color: white;
-            font-size: 18px;
-            text-decoration: none;
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 8px 16px;
-            border-radius: 12px;
-            text-align: center;
-            transition: background-color 0.3s;
-        }
-
-        .section-links a:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-        }
-
-
-        @keyframes trailFade {
-            0% {
-                opacity: 0.5;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
-
-@media only screen and (max-width: 890px) {
-    body {
-        background: url('wallpaper-mobile.svg') no-repeat center center fixed;
-        background-size: cover;
-    }
-}
-    </style>
 </head>
 <body>
     <div class="container">
         <div class="left-section">
-            <img src="favicon.svg" alt="Andrecon's Logo" id="pfp">
-            <h2>Andrecon</h2>
+            <img src="favicon.svg" alt="RJ Logo" id="pfp">
+            <span class="rjstudios">
+                <h2 class="poppins-black">Really Janky</h2>
+                <h1 class="poppins-studios">STUDIOS</h1>
+            </span>
             <div class="quick-info">
-                <p>Professional Graphic Designer</p>
+                <p>It's not just Janky, it's Really Janky!</p>
             </div>
         </div>
         <div class="center-section">
             <div id="about" class="content active">
-                <h1>About me</h1>
-                <p>My name's Andrecon. I am a <a href="https://www.instagram.com/andrecon.des/" target="_blank">graphic designer</a>. I do tons of <a href="https://www.threads.net/@andrecon.des" target="_blank">comics</a>.<br>
-                   You can usually find me on Instagram and Threads.<br>
-                   I am currently learning batch script but I might learn smth else some other day.<br>
-                   I kinda know HTML and CSS</p>
+                <h1>About section</h1>
+                <p>RJ Studios is an indie studio, currently making cool programs. <br>
+                RJ Studios stands for Really Janky Studios, and as the name suggests, we are a bit Janky... <br>
+                RJ Studios is consisted of <a href="">Andrecon</a>, CGCristi and Arond</p>
 <p>Also check out: <a href="https://cgcristi.xyz" style="color: #E8AA42; text-decoration: underline;" target="_blank">cgcristi.xyz</a></p>
             </div>
             <div id="socials" class="content">
