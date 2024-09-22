@@ -1,111 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 2340">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 890 1080">
   <defs>
     <style>
-      .cls-1 {
-        filter: url(#outer-glow-5);
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
-        fill: none;
-        stroke-miterlimit: 10;
-      }
-
-      .cls-1, .cls-3 {
-        stroke: #e57c23;
-      }
-
-      .cls-1, .cls-3, .cls-4, .cls-5 {
-        stroke-width: 43px;
-      }
-
-      .cls-2 {
-        filter: url(#outer-glow-3);
-      }
-
-      .cls-2, .cls-6 {
-        stroke: #e8aa42;
-        stroke-width: 24px;
-      }
-
-      .cls-3 {
-        filter: url(#outer-glow-2);
-      }
-
-      .cls-4 {
-        filter: url(#outer-glow-4);
-      }
-
-      .cls-4, .cls-5 {
-        stroke: #025464;
-        stroke-linecap: round;
-      }
-
-      .cls-7 {
-        fill: #101216;
+      .cls-1, .cls-2, .cls-3 {
         stroke-width: 0px;
       }
 
-      .cls-5 {
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0b0b0c;
+      }
+
+      .cls-3 {
         filter: url(#outer-glow-1);
       }
 
-      .cls-6 {
-        filter: url(#outer-glow-6);
+      .cls-4 {
+        filter: url(#outer-glow-2);
       }
     </style>
     <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
       <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur" stdDeviation="45"/>
-      <feFlood flood-color="#025464" flood-opacity="1"/>
+      <feGaussianBlur result="blur" stdDeviation="9.4"/>
+      <feFlood flood-color="#cfc" flood-opacity=".75"/>
       <feComposite in2="blur" operator="in"/>
       <feComposite in="SourceGraphic"/>
     </filter>
     <filter id="outer-glow-2" filterUnits="userSpaceOnUse">
       <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur-2" stdDeviation="45"/>
-      <feFlood flood-color="#e57c23" flood-opacity="1"/>
+      <feGaussianBlur result="blur-2" stdDeviation="9.06"/>
+      <feFlood flood-color="#d3abef" flood-opacity=".75"/>
       <feComposite in2="blur-2" operator="in"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="outer-glow-3" filterUnits="userSpaceOnUse">
-      <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur-3" stdDeviation="45"/>
-      <feFlood flood-color="#e8aa42" flood-opacity="1"/>
-      <feComposite in2="blur-3" operator="in"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="outer-glow-4" filterUnits="userSpaceOnUse">
-      <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur-4" stdDeviation="45"/>
-      <feFlood flood-color="#025464" flood-opacity="1"/>
-      <feComposite in2="blur-4" operator="in"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="outer-glow-5" filterUnits="userSpaceOnUse">
-      <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur-5" stdDeviation="45"/>
-      <feFlood flood-color="#e57c23" flood-opacity="1"/>
-      <feComposite in2="blur-5" operator="in"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="outer-glow-6" filterUnits="userSpaceOnUse">
-      <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur-6" stdDeviation="45"/>
-      <feFlood flood-color="#e8aa42" flood-opacity="1"/>
-      <feComposite in2="blur-6" operator="in"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
   </defs>
-  <rect class="cls-7" y="0" width="1080" height="2340"/>
-  <g>
-    <path class="cls-5" d="M-140.94,369.91c40.92-41.01,51.08-103.26,82.32-152.05,26.56-41.49,68.97-72.56,116.54-85.37,37.32-10.05,77.34-9.26,113.41-23.16,55.91-21.53,93.15-74.59,120.02-128.14,26.87-53.55,47.44-111.33,85.79-157.36"/>
-    <path class="cls-3" d="M-61.74,502.67c40.92-41.01,88.31-112.16,119.55-160.95,26.56-41.49,68.97-72.56,116.54-85.37,37.32-10.05,77.34-9.26,113.41-23.16,55.91-21.53,93.15-74.59,120.02-128.14,26.87-53.55,81.91-150.74,120.26-196.77"/>
-    <path class="cls-2" d="M-81.19,438.87C-40.26,397.86-30.11,335.61,1.13,286.82c26.56-41.49,68.97-72.56,116.54-85.37,37.32-10.05,77.34-9.26,113.41-23.16,55.91-21.53,93.15-74.59,120.02-128.14,26.87-53.55,47.44-111.33,85.79-157.36"/>
-  </g>
-  <g>
-    <path class="cls-4" d="M1215.45,1943.73c-40.92,41.01-51.08,103.26-82.32,152.05-26.56,41.49-68.97,72.56-116.54,85.37-37.32,10.05-77.34,9.26-113.41,23.16-55.91,21.53-93.15,74.59-120.02,128.14-26.87,53.55-47.44,111.33-85.79,157.36"/>
-    <path class="cls-1" d="M1136.25,1810.97c-40.92,41.01-88.31,112.16-119.55,160.95-26.56,41.49-68.97,72.56-116.54,85.37-37.32,10.05-77.34,9.26-113.41,23.16-55.91,21.53-93.15,74.59-120.02,128.14s-81.91,150.74-120.26,196.77"/>
-    <path class="cls-6" d="M1155.7,1874.77c-40.92,41.01-51.08,103.26-82.32,152.05-26.56,41.49-68.97,72.56-116.54,85.37-37.32,10.05-77.34,9.26-113.41,23.16-55.91,21.53-93.15,74.59-120.02,128.14s-47.44,111.33-85.79,157.36"/>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-2" width="890" height="1080"/>
+    <path class="cls-3" d="M363.68,271.06l-8.27-54.63h0c-4.57-30.17,16.19-58.33,46.36-62.9h0l54.63-8.27,8.27,54.63-54.63,8.27,8.27,54.63-54.63,8.27Z"/>
+    <g class="cls-4">
+      <circle class="cls-1" cx="507.23" cy="149.15" r="26.62" transform="translate(280.85 626.94) rotate(-81.03)"/>
+      <path class="cls-1" d="M535.22,235.98h0c.13,29.4-23.6,53.34-53,53.47h0s-53.24.23-53.24.23l-.23-53.24,53.24-.23-.23-53.24,53.24-.23.23,53.24Z"/>
+    </g>
   </g>
 </svg>

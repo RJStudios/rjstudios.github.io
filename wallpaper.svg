@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3834.66 2157">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
   <defs>
     <style>
       .cls-1, .cls-2, .cls-3 {
@@ -10,14 +10,6 @@
         fill: #fff;
       }
 
-      .cls-4 {
-        fill: none;
-        filter: url(#outer-glow-3);
-        font-family: Poppins-SemiBold, Poppins;
-        font-size: 268.44px;
-        font-weight: 600;
-      }
-
       .cls-2 {
         fill: #0b0b0c;
       }
@@ -26,37 +18,29 @@
         filter: url(#outer-glow-1);
       }
 
-      .cls-5 {
+      .cls-4 {
         filter: url(#outer-glow-2);
       }
     </style>
     <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
       <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur" stdDeviation="50"/>
+      <feGaussianBlur result="blur" stdDeviation="21.05"/>
       <feFlood flood-color="#cfc" flood-opacity=".75"/>
       <feComposite in2="blur" operator="in"/>
       <feComposite in="SourceGraphic"/>
     </filter>
     <filter id="outer-glow-2" filterUnits="userSpaceOnUse">
       <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur-2" stdDeviation="50"/>
+      <feGaussianBlur result="blur-2" stdDeviation="21.29"/>
       <feFlood flood-color="#d3abef" flood-opacity=".75"/>
       <feComposite in2="blur-2" operator="in"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="outer-glow-3" filterUnits="userSpaceOnUse">
-      <feOffset dx="0" dy="0"/>
-      <feGaussianBlur result="blur-3" stdDeviation="64"/>
-      <feFlood flood-color="#efc995" flood-opacity=".75"/>
-      <feComposite in2="blur-3" operator="in"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
   </defs>
-  <rect class="cls-2" width="3834.66" height="2157"/>
-  <path class="cls-3" d="M279.2,849.05l-43.96-290.47h0c-24.28-160.42,86.09-310.15,246.51-334.43h0l290.47-43.96,43.96,290.47-290.47,43.96,43.96,290.47-290.47,43.96Z"/>
-  <g class="cls-5">
-    <circle class="cls-1" cx="3446.7" cy="1156.86" r="146.89"/>
-    <path class="cls-1" d="M3669.26,1608.35h0c24.34,160.41-85.97,310.18-246.38,334.52h0s-290.45,44.07-290.45,44.07l-44.07-290.45,290.45-44.07-44.07-290.45,290.45-44.07,44.07,290.45Z"/>
+  <rect class="cls-2" x="0" width="1920" height="1080"/>
+  <path class="cls-3" d="M216.88,438.8l-18.51-122.28h0c-10.22-67.54,36.24-130.57,103.78-140.79h0l122.28-18.51,18.51,122.28-122.28,18.51,18.51,122.28-122.28,18.51Z"/>
+  <g class="cls-4">
+    <circle class="cls-1" cx="1625.7" cy="569.7" r="62.54" transform="translate(1039.3 2189.44) rotate(-89.41)"/>
+    <path class="cls-1" d="M1720.46,761.93h0c10.36,68.3-36.6,132.06-104.9,142.43h0s-123.66,18.76-123.66,18.76l-18.76-123.66,123.66-18.76-18.76-123.66,123.66-18.76,18.76,123.66Z"/>
   </g>
-  <text class="cls-4" transform="translate(293.67 1675.66) rotate(15.12)"><tspan x="0" y="0">STUDIOS</tspan></text>
 </svg>
