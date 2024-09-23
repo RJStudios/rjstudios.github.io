@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background: url('wallpaper.svg') no-repeat center center fixed;
@@ -117,10 +117,42 @@ background-size: cover;
     margin-top: -25px;
 }
 
+div.items {
+    overflow-y: auto;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 13px;
+    padding: 10px;
+    height: 30vh;
+}
 .repo-item {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 25px;
+
+    a{
+        color: #c72fa6;
+        font-size: 25px;
+        padding: 10px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #c4c4c4;
+        padding-inline: 10px;
+        margin-top: -1px;
+        margin-bottom: 1px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+#small{
+    color: #c4c4c4;
+    padding-inline: 10px;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 
@@ -243,3 +275,22 @@ background-size: cover;
     font-style: italic;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: #202020;
+    border-radius: 25px;
+    box-shadow: inset 0 0 5px #695379; 
+}
+::-webkit-scrollbar-thumb {
+    background: #505050;
+    border-radius: 25px; 
+    width: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #493f50;
+    border-radius: 25px; 
+    width: 3px;
+}
