@@ -10,6 +10,23 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+button.asearch {
+    border-radius: 30px;
+    width: 160px;
+    height: 40px;
+    border-color: #ff4081;
+    border-style: solid;
+    background-color: #222222;
+    a {
+    color: #ff4081;
+    text-decoration: none;
+    }
+    cursor: crosshair;
+    a{
+        cursor: crosshair;
+    }
+}
+
 .container {
     display: flex;
     background-color: rgba(0, 0, 0, 0.8);
@@ -90,6 +107,7 @@ color: #695379;
     border-radius: 12px;
     text-align: center;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 .section-links a:hover {
@@ -116,13 +134,20 @@ background-size: cover;
 .rjstudios {
     margin-top: -25px;
 }
-
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+h1 a:hover{
+    color: lightgrey;
+    text-decoration: none;
+}
 div.items {
     overflow-y: auto;
     border: 3px solid rgba(255, 255, 255, 0.5);
     border-radius: 13px;
     padding: 10px;
-    height: 30vh;
+    height: 50vh;
 }
 .repo-item {
     background-color: rgba(255, 255, 255, 0.1);
@@ -153,6 +178,55 @@ div.items {
     margin-bottom: 1px;
     font-size: 20px;
     font-weight: 500;
+}
+div#comics {
+    width: 65vh;
+}
+
+div#comics #subtitle{
+    margin-top: -20px;
+}
+div#images {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    width: 55vh;
+    overflow-y: auto;
+    height: 60vh;
+
+    img {
+        border-radius: 10px;
+        padding: 10px;
+        -webkit-filter: brightness(100%);
+    }
+    img:hover {
+        -webkit-filter: brightness(70%);
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        transition: all .5s ease;
+        cursor: zoom-in;
+    }
+}
+.combo {
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 13px;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    width: auto;
+
+    p{
+        padding-bottom: -10px;
+    }
+}
+
+div#images#items {
+    overflow-y: auto;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 13px;
+    padding: 10px;
 }
 
 
@@ -293,4 +367,5 @@ div.items {
     background: #493f50;
     border-radius: 25px; 
     width: 3px;
+    cursor: row-resize;
 }
