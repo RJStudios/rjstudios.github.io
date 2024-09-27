@@ -1,3 +1,16 @@
+:root {
+    --primary-color: #735588;
+    --secondary-color: #c72fa6;
+    --bg-color: rgba(0, 0, 0, 0.8);
+    --text-color: #ffffff;
+    --card-bg: rgba(255, 255, 255, 0.1);
+}
+
+.divider {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0 20px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -17,6 +30,7 @@ button.asearch {
     border-color: #ff4081;
     border-style: solid;
     background-color: #222222;
+    transition: .3s;
     a {
     color: #ff4081;
     text-decoration: none;
@@ -27,12 +41,16 @@ button.asearch {
     }
 }
 
+button.asearch:hover {
+    transform: scale(1.1);
+}
+
 .container {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--bg-color);
     border-radius: 25px;
     padding: 30px;
-    width: 80%;
+    min-width: 120vh;
     max-width: 900px;
     color: white;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
@@ -54,10 +72,34 @@ button.asearch {
 }
 
 .center-section {
-    flex: 3;
+    flex: 4;
     padding: 0 20px;
 }
 
+.section-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+}
+
+.section-links a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 12px;
+    text-align: left;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.section-links a:hover {
+    background-color: var(--primary-color);
+    transform: translateX(5px);
+}
 .content {
     display: none;
 }
@@ -83,7 +125,7 @@ color: #8db38d;
 
 #purplelink a,
 #contact a {
-color: #9075a3; 
+color: var(--primary-color); 
 text-decoration: underline; 
 }
 
@@ -91,29 +133,6 @@ text-decoration: underline;
 #contact a:hover {
 color: #695379;
 }
-
-.section-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.section-links a {
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 8px 16px;
-    border-radius: 12px;
-    text-align: center;
-    transition: background-color 0.3s;
-    cursor: pointer;
-}
-
-.section-links a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
 
 @keyframes trailFade {
     0% {
@@ -148,14 +167,16 @@ div.items {
     border-radius: 13px;
     padding: 10px;
     height: 50vh;
+    min-width: 10vh;
 }
 .repo-item {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 8px;
     border-radius: 25px;
+    flex-wrap: wrap;
 
     a{
-        color: #c72fa6;
+        color: var(--secondary-color);
         font-size: 25px;
         padding: 10px;
         font-weight: 600;
@@ -179,12 +200,10 @@ div.items {
     font-size: 20px;
     font-weight: 500;
 }
-div#comics {
-    width: 65vh;
-}
 
 div#comics #subtitle{
     margin-top: -20px;
+    color: #c7c7c7;
 }
 div#images {
     align-items: center;
@@ -215,6 +234,7 @@ div#images {
     padding: 10px;
     display: block;
     justify-content: center;
+    flex-wrap: wrap;
     width: auto;
 
     p{
