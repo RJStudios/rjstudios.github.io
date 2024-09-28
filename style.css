@@ -110,14 +110,13 @@ button.asearch:hover {
 }
 
 .blog-items {
+    overflow-y: scroll;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    overflow-y: auto;
+    flex-direction: column;
     border-radius: 20px;
     padding: 10px;
     padding-top: 20px;
-    height: 55vh;
+    height: 60vh;
     min-width: 10vh;
 }
 .blog-post {
@@ -246,7 +245,7 @@ div.items {
     font-weight: 500;
 }
 
-div#comics #subtitle{
+#subtitle{
     margin-top: -20px;
     color: #c7c7c7;
 }
