@@ -133,13 +133,14 @@ button.asearch:hover {
 }
 
 .blog-image {
-    width: 100%;
-    max-width: 157px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
     background-color: #ffffff;
     border-style: solid;
+    object-fit: cover;
+    width: 220px;
+    height: 220px;
 }
 
 /* yes, if u ask, after i make a website, i always put the NEW css for other things that werent in the 1st ver on the side. idk why */
