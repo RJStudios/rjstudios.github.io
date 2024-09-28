@@ -97,6 +97,7 @@ button.asearch:hover {
 }
 
 .section-links a:hover {
+    color: white;
     background-color: var(--primary-color);
     transform: translateX(5px);
 }
@@ -108,7 +109,49 @@ button.asearch:hover {
     display: block;
 }
 
+.blog-items {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    height: 55vh;
+    min-width: 10vh;
+}
+.blog-post {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #1f1f1f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.blog-post:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.blog-image {
+    width: 100%;
+    max-width: 157px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-style: solid;
+}
+
 /* yes, if u ask, after i make a website, i always put the NEW css for other things that werent in the 1st ver on the side. idk why */
+
+
+a {
+    color: var(--secondary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
 
 #about a {
 color: white; 
