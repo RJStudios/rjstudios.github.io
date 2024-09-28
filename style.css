@@ -112,6 +112,7 @@ button.asearch:hover {
 .blog-items {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: flex-end;
     overflow-y: auto;
     border-radius: 20px;
     padding: 10px;
