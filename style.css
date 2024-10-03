@@ -113,7 +113,7 @@ button.asearch:hover {
 .blog-items {
     overflow-y: scroll;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     border-radius: 20px;
     padding: 10px;
     padding-top: 20px;
@@ -127,6 +127,10 @@ button.asearch:hover {
     background: #1f1f1f;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s, box-shadow 0.3s;
+
+    .blog-date{
+        color: rgba(255, 255, 255, 0.644);
+    }
 }
 .blog-post:hover {
     transform: translateY(-2px);
