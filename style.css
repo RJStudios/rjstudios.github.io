@@ -29,6 +29,7 @@ button.asearch {
     width: 160px;
     height: 40px;
     border-color: #ff4081;
+    color: #ff4081;
     border-style: solid;
     background-color: #222222;
     transition: .3s;
@@ -243,7 +244,7 @@ div.items {
     min-width:fit-content;
     flex-wrap: wrap;
 }
-.repo-item {
+.item {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 8px;
     border-radius: 25px;
@@ -461,4 +462,24 @@ div#images#items {
     background: #493f50;
     border-radius: 25px; 
     width: 3px;
+}
+
+/* end of poppins*/
+
+#iFrame{
+    width: 500px;
+    height: 900px;
+    overflow-y: visible;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    border:0;
+}
+
+.aSearchIFrame{
+    display: none;
+    
+    button {
+        border: 3px solid #ff4081;
+    }
 }
